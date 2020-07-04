@@ -37,19 +37,42 @@ let favorites = [];
 
 function addFavourite(ev) {
   const heartUser = ev.currentTarget;
-  console.log(heartUser);
   const heartParent = heartUser.parentElement;
-  console.log(heartParent);
-  if (favorites.indexOf(heartParent) === -1) {
+  const indexCard = favorites.indexOf(heartParent);
+  if (indexCard === -1) {
     favorites.push(heartParent);
-    heartUser.classList.remove('heart');
-    heartUser.classList.add('iconBold');
     heartParent.classList.add('backgroundColor');
+    heartUser.classList.remove('far');
+    heartUser.classList.add('fas');
   } else {
-    favorites.reverse(heartParent);
+    favorites.splice(indexCard, 1)
     heartParent.classList.remove('backgroundColor');
+    heartUser.classList.add('far');
+    heartUser.classList.remove('fas');
   }
   console.log(favorites);
 }
 
 conectToData();
+
+/* /* Mostrar favoritos 
+
+const heartFavorite = document.querySelector('.heart__Nav');
+
+function showFavorite() {
+  const cardPrincess = document.querySelectorAll('.card');
+  for (const card of cardPrincess){
+    
+  }
+  console.log(cardPrincess)
+  for (const favorite of favorites) {
+    if (favorite === '') {
+      cardPrincess.classList.add('hidden');
+    } else {
+      console.log('Vamos a pintarlo')
+    }
+    
+  }
+}
+
+heartFavorite.addEventListener('click', showFavorite) */
