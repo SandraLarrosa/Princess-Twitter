@@ -61,8 +61,24 @@ body {
   font-size: 25px;
   color: red;
   cursor: pointer;
+  transition: 0.3s ease-in-out ;
 }
 
 .heart:hover {
   color: rgb(145, 0, 0);
+  font-weight: bold;
+}
+.backgroundColor {
+  background-color: rgb(158, 236, 213);
+}
+
+.iconBold {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
