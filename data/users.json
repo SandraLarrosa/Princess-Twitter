@@ -4,48 +4,48 @@
     "email": "dangerousRedHair@example.com",
     "phone": "0424-4724697",
     "comment":"Ahora que estamos en fase 3 ¿Alguna amigui se apunta a una mariscada el Sábado?",
-    "picture": "../images/ariel.jpg"
+    "picture": "./images/ariel.jpg"
   },
   {
     "name": "Pocahontas Hojas Verdes",
     "email": "poquigreen85@example.com",
     "phone": "0424-4723697",
     "comment":"No puedo con tanta belleza en la naturaleza, vivo en un síndrome de Stendhal permanente",
-    "picture": "../images/pocahontas.jpg"
+    "picture": "./images/pocahontas.jpg"
   },
   {
     "name": "Mégara Theotokópoulos",
     "email": "lagreca@example.com",
     "phone": "0434-4723697",
     "comment":"Definitivamente odio a la raza humana, 2020 gracias, puedes extinguirnos ya",
-    "picture": "../images/megara.jpg"
+    "picture": "./images/megara.jpg"
   },
   {
     "name": "Jasmine Moreno Perales",
     "email": "morenoJasmin@example.com",
     "phone": "0434-4723697",
     "comment":"Mi churri y yo nos mudamos y la alfombra no nos cabe en el pisito, os dejo el enlace de Wallapop, 30 euritos ;)",
-    "picture": "../images/jasmine.jpg"
+    "picture": "./images/jasmine.jpg"
   },
   {
     "name": "Bella del Valle",
     "email": "labellapati@example.com",
     "phone": "0434-4723697",
     "comment":"La última novela de Vargas Llosa me ha llegado al alma, no puedo más, qué hombre más maravilloso, qué pluma, qué PASIÓN!!",
-    "picture": "../images/bella.jpg"
+    "picture": "./images/bella.jpg"
   },
   {
     "name": "Mulan Yin Yang",
     "email": "killingAtila@example.com",
     "phone": "0434-4723697",
     "comment":"Estoy pensando en cortarme el pelo, así en plan chiquillo, para el verano",
-    "picture": "../images/mulan.jpg"
+    "picture": "./images/mulan.jpg"
   },
   {
     "name": "Rapunzel Rubio",
     "email": "longhairgirl@example.com",
     "phone": "0434-4723697",
     "comment":"Hoy me siento un poco como si viviera en una tercera dimensión... ¿A alguna más le pasa?",
-    "picture": "../images/rapunzel.jpg"
+    "picture": "./images/rapunzel.jpg"
   }
 ] 
