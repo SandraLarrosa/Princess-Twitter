@@ -1,6 +1,6 @@
 'use strict';
 
-const dataUsers = '../data/users.json';
+const dataUsers = './data/users.json';
 const listHTML = document.querySelector('.js-user-list');
 
 let users = [];
